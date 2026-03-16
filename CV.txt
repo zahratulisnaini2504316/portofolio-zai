@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio Zahratul Isnaini</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<style>
+body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+.hero-gradient { background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); }
+</style>
+</head>
+<body>
+
+<nav class="flex justify-between items-center p-6 bg-white shadow-sm sticky top-0 z-50">
+<h1 class="text-xl font-bold text-indigo-600 uppercase tracking-wider">Zahratul Isnaini</h1>
+<div class="space-x-6 hidden md:flex">
+<a href="#about" class="text-gray-600 hover:text-indigo-600">Tentang</a>
+<a href="#achievements" class="text-gray-600 hover:text-indigo-600">Prestasi</a>
+<a href="#skills" class="text-gray-600 hover:text-indigo-600">Keahlian</a>
+<a href="#contact" class="px-4 py-2 bg-indigo-600 text-white rounded-lg">Kontak</a>
+</div>
+</nav>
+
+<section class="text-center py-20 px-6 hero-gradient text-white">
+<p class="text-sm uppercase tracking-widest mb-2">PENDIDIKAN EKONOMI @ UNIVERSITAS NEGERI MALANG [cite: 1, 19]</p>
+<h2 class="text-4xl md:text-6xl font-extrabold mb-4">Zahratul Isnaini</h2>
+<p class="text-lg opacity-90 max-w-2xl mx-auto mb-8">
+Mahasiswi yang berfokus pada ekonomi praktis, analisis dasar, dan metodologi pengajaran inovatif. [cite: 20]
+</p>
+<div class="flex justify-center gap-4">
+<a href="mailto:zahratul.isnaini.2504316@students.um.ac.id" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-bold shadow-lg">Hubungi Saya</a> [cite: 2]
+<a href="#achievements" class="border border-white px-6 py-3 rounded-full font-bold">Lihat Prestasi</a>
+</div>
+</section>
+
+<section id="about" class="py-16 px-6 max-w-4xl mx-auto">
+<h3 class="text-2xl font-bold mb-6 border-b-2 border-indigo-600 inline-block">Tentang Saya</h3>
+<p class="text-gray-700 leading-relaxed mb-6">
+Saya adalah mahasiswi semester dua di Universitas Negeri Malang. [cite: 19] Saya dikenal sebagai pembelajar cepat, detail-oriented, dan berdedikasi tinggi dalam tim. [cite: 21]
+Selain akademik, saya memiliki hobi **mendesain, menggambar, dan memasak**. [cite: 15, 16, 17]
+</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100">
+<p class="font-bold text-indigo-600">Pendidikan Terakhir</p>
+<p class="text-sm">SMA Annur Bululawang (2022-2025) [cite: 9, 10]</p>
+</div>
+<div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100">
+<p class="font-bold text-indigo-600">Lokasi</p>
+<p class="text-sm">Kutai Timur, Kalimantan Timur [cite: 5]</p>
+</div>
+<div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100">
+<p class="font-bold text-indigo-600">Status</p>
+<p class="text-sm">Mahasiswa Aktif [cite: 1]</p>
+</div>
+</div>
+</section>
+
+<section id="achievements" class="py-16 bg-indigo-50 px-6">
+<div class="max-w-4xl mx-auto">
+<h3 class="text-2xl font-bold mb-8 text-center text-gray-800">Prestasi & Sertifikasi</h3>
+<div class="space-y-4">
+<div class="flex items-center p-4 bg-white rounded-lg shadow-sm">
+<span class="text-2xl mr-4">🥈</span>
+<p class="text-gray-700 font-medium">Medali Perak Ekonomi: NYSO, KSPI, ISSC, FOSNAS (2025) [cite: 26, 27, 28, 29]</p>
+</div>
+<div class="flex items-center p-4 bg-white rounded-lg shadow-sm">
+<span class="text-2xl mr-4">🥉</span>
+<p class="text-gray-700 font-medium">Medali Perunggu Ekonomi: OSSN (2025) [cite: 25]</p>
+</div>
+<div class="flex items-center p-4 bg-white rounded-lg shadow-sm border-l-4 border-green-500">
+<span class="text-2xl mr-4">📖</span>
+<p class="text-gray-700 font-medium">Tasmi' Al Qur'an 5 Juz Bil Ghoib [cite: 23]</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="skills" class="py-16 px-6 max-w-4xl mx-auto">
+<h3 class="text-2xl font-bold mb-8 text-gray-800">Keahlian & Kompetensi</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+<div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-indigo-500 transition">
+<i class="fas fa-paint-brush text-indigo-500 text-3xl mb-3"></i>
+<p class="font-bold">Desain [cite: 31]</p>
+</div>
+<div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-indigo-500 transition">
+<i class="fas fa-file-excel text-green-500 text-3xl mb-3"></i>
+<p class="font-bold">MS Office [cite: 31]</p>
+</div>
+<div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-indigo-500 transition">
+<i class="fas fa-code text-gray-700 text-3xl mb-3"></i>
+<p class="font-bold">Coding Dasar [cite: 31]</p>
+</div>
+<div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-indigo-500 transition">
+<i class="fas fa-comments text-orange-500 text-3xl mb-3"></i>
+<p class="font-bold">Public Speaking [cite: 31]</p>
+</div>
+</div>
+</section>
+
+<footer id="contact" class="bg-gray-900 text-white py-12 px-6 text-center">
+<h3 class="text-2xl font-bold mb-4">Mari Terhubung</h3>
+<p class="opacity-70 mb-6">Terbuka untuk kolaborasi proyek pendidikan dan ekonomi.</p>
+<div class="flex justify-center space-x-6 text-2xl">
+<a href="tel:+6282192716368" class="hover:text-indigo-400"><i class="fas fa-phone"></i></a> [cite: 4]
+<a href="mailto:zahratul.isnaini.2504316@students.um.ac.id" class="hover:text-indigo-400"><i class="fas fa-envelope"></i></a> [cite: 2]
+</div>
+<p class="mt-8 text-xs opacity-50">&copy; 2026 Zahratul Isnaini. Dibuat dengan Gemini.</p>
+</footer>
+
+</body>
+</html>
